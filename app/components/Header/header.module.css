@@ -1,0 +1,32 @@
+
+.header {
+    background-color: #550707;
+    padding: 30px 30px;
+    border-bottom: 1px solid #eaeaea;
+  } 
+.nav {
+    display: flex;
+    justify-content: center;
+} 
+.ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    padding: 0;
+    margin: 0;
+  }
+.li {
+    display: inline;
+  }
+.home, .about, .contact, .service {
+    text-decoration: none;
+    color: #ffcde3;
+    font-weight: 500;
+    font-size: large;
+    transition: color 0.3s ease;
+}
+
+.home:hover, .about:hover, .contact:hover, .service:hover {
+    color: #f57c9e;
+  }
+  
