@@ -1,5 +1,4 @@
 import cssStyle from "./contact.module.css"
-import Header from "../components/Header/Header";
 
 console.log(cssStyle, "CSS-Style");
 
