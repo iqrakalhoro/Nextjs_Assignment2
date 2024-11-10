@@ -1,12 +1,19 @@
-import cssStyle from "./contact.module.css"
+import React from "react";
+import cssStyle from './contact.module.css';
 
-console.log(cssStyle, "CSS-Style");
-
-function Contact(){
- return (
-    <div>
- <h1 className={cssStyle.beige} style={{textAlign: "center"}} >This is Contact Page</h1>
- </div>)
+function ContactPage() {
+  return (
+    <section className={cssStyle.hero}>
+      <div className={cssStyle.overlay}></div>
+      <div className={cssStyle.content}>
+        <h1 className={cssStyle.title}>Get in Touch</h1>
+        <p className={cssStyle.subtitle}>
+          We would love to hear from you! Reach out to us for any questions or to schedule an appointment.
+        </p>
+        <button className={cssStyle.ctaButton}>Contact Us</button>
+      </div>
+    </section>
+  );
 }
 
-export default Contact
+export default ContactPage;

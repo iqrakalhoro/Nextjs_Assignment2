@@ -1,3 +1,4 @@
+
 .beige{
     color: beige;
     text-align: "center";
@@ -5,7 +6,44 @@
     font-size: 100px;
     font-family:"timesNewRoman";
 }
-.ul{
-    text-align: center;
-    font-size: 50px;
+.overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 146, 146, 0.5);
+    z-index: 2;
+}
+.p{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.h2{
+    color: maroon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h3{
+    color: rgb(125, 37, 52);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .beige {
+        font-size: 8vw;
+        padding: 5px;
+    }
+
+    .h2 {
+        font-size: 1.5rem;
+    }
+
+    .h3 {
+        font-size: 1.2rem; 
+    }
+
+    .p {
+        padding: 5px;
+        font-size: 0.9rem;
+    }
 }

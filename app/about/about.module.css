@@ -1,8 +1,45 @@
-.beige{
+.beige {
     color: beige;
-    text-align: "center";
+    text-align: center; 
     background-color: maroon;
-    font-size: 100px;
-    font-family:"timesNewRoman";
-    
+    font-size: 3vw; 
+    font-family: "Times New Roman", Times, serif; 
+    padding: 1rem;
+    margin: auto;
+    max-width: 90%; 
+    border-radius: 8px; 
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 146, 146, 0.5);
+    z-index: 2;
+}
+.paragraph{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@media (min-width: 768px) {
+    .beige {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .beige {
+        font-size: 5vw;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .beige {
+        font-size: 4rem; 
+        padding: 0.75rem;
+    }
 }
